@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url("https://www.webzfusion.com/wp-content/uploads/2015/04/portfolio-background-4.gif");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 200px;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-left: -2%;
+
+}
+ul{
+    margin-top: -8%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(17, 19, 21);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgba(250, 77, 29, 0.884);
+}
+.info{
+    margin-left: 3%;
+    margin-top: -2%;
+    font-family: 'DM Serif Display', serif;
+}
+info h1{
+
+    font-size: 2rem;
+    color: rgb(46, 44, 44);
+}
+.info h4{
+    display:inline-flex;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color:rgb(230,104,59);
+}
+.info span h2{
+    font-family: 'Caveat', cursive;
+}
+info a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 26px 0;
+    padding:  10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s ease;
+}
+.info a:hover{
+    background: rgb(109, 202, 223);
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 120%;
+    left:55%;
+    transform: translate(-50%);
+    bottom: 0;
+    filter: invert(0%);
+}
+.image:hover .girl{
+left:55%;
+}
+
+.log{
+    display: inline-block;
+    margin: 15px;
+    position: fixed;
+}
+.log img{
+    width: 38px;
+    padding: 5px;
+}
+.log .go{
+    width: 73px;
+}
+.log .tw{
+    width: 73px;
+}
+.but{
+    display: inline-block;
+    margin-top: 100px;
+}
+.but button{
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 150px;
+    height: 25px;
+    border-radius: 11px;
+    border-color: rgb(48, 48, 149);
+    padding-left: 7px;
+    padding-top: 3px;
+    font-family: 'DM Serif Display', serif;
+}
+button a{
+    text-decoration: none;
+    color: rgb(73, 187, 225);
+    font-size: 13px;
+}
+button a:hover{
+    color: white;
+}
